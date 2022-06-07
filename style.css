@@ -1,0 +1,252 @@
+*{
+  
+    box-sizing: border-box;
+}
+body{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    background-color: #070642;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #ffffff;
+}
+.navbar-climate{
+        background-color: green;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: #ffffff;
+}
+.brand-title{
+    font-size: 1.5rem;
+    font-style: var(10px);
+    font-weight: solid;
+    color:rgb(194, 192, 201);
+   margin: .5rem;
+}
+.navbar-links ul{
+   margin: 0;
+   padding: 0;
+   display: flex;
+}
+
+.navbar-links li{
+    list-style: none;
+}
+
+.navbar-links li a{
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 1rem;
+    border-radius: 3px;
+    text-decoration: none;
+    display: block;
+}
+.all-news,.latest-news,.human-right,.climate-a,.global-news,.politics,.climate{
+    background-color: rgb(33, 87, 161);
+}
+.navbar-links a:hover{
+background-color: rgb(32, 69, 121);
+    transition: .5s;
+ 
+
+    
+}
+.toggle-button{
+    position: absolute;
+    top:.75rem;
+    right:1rem;
+    display: none;
+    flex-direction:column;
+    justify-content: space-between;
+    width:30px;
+    height:21px;
+}
+.toggle-button .bar{
+    height: 3px;
+    width:100%;
+    background-color: white;
+    border-radius:10px;
+
+}
+
+@media (max-width: 800px) { 
+    .toggle-button {
+        display: flex;
+    }
+    .navbar-links {
+     display: none;
+    }
+    .navbar, .navbar-climate {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+   .navbar-links ul {
+       width: 100%;
+       flex-direction: column;
+   }
+   .navbar-links li{
+       text-align:center;
+   }
+   .navbar-links li a {
+       padding: .5rem 1rem;
+   }
+   .navbar-links.active {
+       display: flex;
+   }
+}
+.block {
+    display: inline-block;
+    width: 400px;
+    height: 200px;
+    margin-bottom: 25px;
+    
+   
+}
+.link-a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+}
+.link-a:hover{
+    color: rgb(175, 75, 75);
+    text-decoration: underline;
+}
+.container  {
+    text-align: center;
+}
+.web-logo-voice-et{
+    text-align: center;
+    
+}
+@media (max-width: 800px) {
+    .block {
+        display:contents;
+        width: 50px;
+        height: 25px;
+    }
+}
+.footer-1 {
+    padding: 40px 0;
+    background-color: #070642;
+}
+.footer-1 .social {
+text-align: center;
+padding-bottom: 25px;
+color:white;
+}
+.footer-1 .social a{
+    font-size= 24px;
+    color:white;
+    border:1px solid #ccc;
+    width: 40px;
+    height:40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align:center;
+    border-radius: 50%;
+    margin:0 8px;
+    opacity:0.75;
+}
+.footer-1 .social a:hover {
+    opacity:0.9;
+}
+.footer-1 ul {
+    margin: 0;
+    padding: 0;
+    list-style:none;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+}
+.footer-1 ul li a {
+    color: white;
+    text-decoration: none;
+    opacity:0.8;
+}
+.footer-1 ul li {
+    display: inline-block;
+    padding:0 15px;
+}
+.footer-1 ul li a:hover {
+    opacity: 1;
+}
+.footer-1 .copyright {
+    text-align: center;
+    margin-top: 27px;
+    font-size:13px;
+    color:#aaa;
+}
+.h1,.news-h1,.ruleof-law{
+    font-weight: bold;
+    display: flex;
+}
+.p1,.p2{
+    color: rgb(192, 112, 55);
+}
+.news-h2{
+ font-weight: bold;
+ font-size: 25px;
+}
+.image-2,.detention-in-ethiopia{
+    width: 600px;
+    height:350px;
+}
+
+.dawit-the-founder {
+width:15%;
+position: relative;
+left:43%;
+    
+}
+.bio-dawit1{
+    color: rgb(123, 35, 35);
+    
+   text-align: center;
+    font-weight: 400;
+}
+.bio-dawit2{
+   text-align: center;
+}
+
+.temesgen-p{
+   display: flex;
+}
+.ukraine-flag {
+    text-align: center;
+    font-size: 14px;
+    background-color: yellowgreen;
+}
+header.freedom{
+    color: black;
+    background-color: rgb(255, 77, 0);
+text-align: center;
+}
+.free-teme-humanright{
+    width: 20%;
+}
+.image-arbaminch{
+    height: 300px;
+    width:200;
+}
+/* Two image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    object-position: bottom;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table; 
+  }
+    

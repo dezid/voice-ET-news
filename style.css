@@ -105,9 +105,10 @@ background-color: rgb(32, 69, 121);
     width: 400px;
     height: 200px;
     margin-bottom: 25px;
-    
-   
 }
+@-ms-viewport{
+    width: device-width;
+  }
 .link-a {
     color: rgb(0, 0, 0);
     text-decoration: none;
@@ -126,9 +127,16 @@ background-color: rgb(32, 69, 121);
 }
 @media (max-width: 800px) {
     .block {
-        display:contents;
-        width: 50px;
-        height: 25px;
+        
+        width: 100%;
+        
+
+    }
+    .climate-images{
+        width:100%;
+    }
+    .humanright-images,.mobile-images{
+        width:100%;
     }
 }
 .footer-1 {
@@ -183,16 +191,13 @@ color:white;
     font-size:13px;
     color:#aaa;
 }
-.h1,.news-h1,.ruleof-law{
-    font-weight: bold;
-    display: flex;
-}
 .p1,.p2{
     color: rgb(192, 112, 55);
 }
 .news-h2{
  font-weight: bold;
  font-size: 25px;
+ 
 }
 .image-2,.detention-in-ethiopia{
     width: 600px;
@@ -232,8 +237,8 @@ text-align: center;
     width: 20%;
 }
 .image-arbaminch{
-    height: 300px;
-    width:200;
+   object-fit: cover;
+   width: 40%;
 }
 /* Two image containers (use 25% for four, and 50% for two, etc) */
 .column {
@@ -249,4 +254,3 @@ text-align: center;
     clear: both;
     display: table; 
   }
-    

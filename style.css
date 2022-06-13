@@ -93,9 +93,11 @@ a{
     margin-bottom: 0;
 }
 .hr-politics-post{
+    width: 100%;
     border: none;
     height: 1px;
     background: gray;
+    
 }
 .hr-all-news{
     background: gray;
@@ -106,7 +108,14 @@ a{
     .image-grid{
         display: block;
     }
-    
+    .hr-politics-post{
+        width: 400px;
+text-align: center;
+    }
+    .p-politics-post,.p-latest-post{
+        width: 300px;
+        text-align: center;
+    }
     
     .toggle-button {
         display: flex;
@@ -139,13 +148,6 @@ a{
     text-align: left;
     margin-left: 12px;
 }
-@media (max-width:800px;){
-    .block{
-    display: block;
-   
-}
-
-}
 
 @-ms-viewport{
     width: device-width;
@@ -170,11 +172,8 @@ a{
 }
 @media (max-width: 800px) {
     .block {
-        
         width: 85%;
         margin-top: 23px;
-        
-
     }
     .climate-images{
         width:100%;

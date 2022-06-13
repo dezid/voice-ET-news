@@ -139,6 +139,13 @@ a{
     text-align: left;
     margin-left: 12px;
 }
+@media (max-width:800px;){
+    .block{
+    display: block;
+   
+}
+
+}
 
 @-ms-viewport{
     width: device-width;
@@ -164,7 +171,7 @@ a{
 @media (max-width: 800px) {
     .block {
         
-        width: 100%;
+        width: 85%;
         margin-top: 23px;
         
 
@@ -365,10 +372,10 @@ text-align: center;
    .grid{
     
     display: block;
-
+    grid-column-gap:0%;
    }
    .hr-all-news,.hr-politics-post{
-    width: 100%;
+    width: 400px%;
    }
    .p-politics-post{
     width: 400px;

@@ -358,6 +358,11 @@ text-align: center;
     color: white;
     text-align: center;
 }
+.heading-tigray{
+    background-color: rgb(65, 8, 19);
+color: white;
+text-align: center;
+}
 .date-time{
     color: gray;
     font-size: small;

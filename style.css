@@ -113,8 +113,10 @@ a{
 text-align: center;
     }
     .p-politics-post,.p-latest-post{
-        width: 300px;
-        text-align: center;
+        width: 100%;
+    }
+    .politics-list{
+        width: 100%;
     }
     
     .toggle-button {

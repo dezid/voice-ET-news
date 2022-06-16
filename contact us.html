@@ -31,6 +31,39 @@
                 </ul>
             </div>
         </nav>
+
+        <div class="container-contact-form">
+<form onsubmit="sendEmail();reset(); return false;" class="contact-form">
+    <h3>GET IN TOUCH (ማንኛውንም መረጃ ያጋሩን)</h3>
+    <input type="text" id="name" placeholder="Your name (ስም)" required>
+    <input type="text" id="email" placeholder="Email (ኢሜይል)" required>
+    <input type="text" id="phone" placeholder="Phone no. (ስልክ)" required>
+   <textarea id="message" rows="4" placeholder=" Message here (ያሎትን አስተያየት እዚህ ያስገቡ)"></textarea>
+   <button type="submit">Submit</button>
+</form>
+        </div>
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+<script>
+
+    function sendEmail(){
+        Email.send({
+    Host : "smtp.gmail.com",
+    Username : "voiceetnews@gmail.com",
+    Password : "dezmend121314151617181910",
+    To : 'voiceetnews@gmail.com',
+    From : "document.getElementById("email").value,
+    Subject : "New Contact Form voiceETnews",
+    Body : "And this is the body"
+}).then(
+  message => alert(message)
+);
+    }
+</script>
+
+
+
+
+        
         <footer>
             <section class="footer-1">
                 <div class="social">

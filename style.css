@@ -401,21 +401,16 @@ text-align: center;
 }
 .slider{
     position:relative;
-    width: 58%;
+    width: 85%;
     overflow: hidden;
 }
 @media (max-width:800px){
     .slider{
-        width:594px;
-        height: 486px;
+        display: none;
     }
     .class-body{
-        height: 80vh;
+        display: none;
     }
-    .images-slider img{
-        height: 330px;
-        width: 100%;
-}
 .image-enat-maeiad{
     width: 140%;
   }

@@ -291,8 +291,7 @@ color:white;
 
 .dawit-the-founder {
 width:15%;
-position: relative;
-left:43%;
+
     
 }
 .bio-dawit1{
@@ -465,4 +464,8 @@ transition: all 0.15s ease;
 }
 #img5:checked ~ .m5{
     margin-left: -400%;
+}
+.about-us-body{
+    text-align: center;
+  
 }

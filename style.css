@@ -415,6 +415,9 @@ text-align: center;
     width: 140%;
   }
 }
+@media (max-width:800px){
+    
+}
 .images-slider{
     display: flex;
     width: 100%;

@@ -407,9 +407,12 @@ text-align: center;
 }
 @media (max-width:800px){
     .slider{
-        width:max-content;
+        width:594px;
+        height: 486px;
     }
-
+    .class-body{
+        height: 80vh;
+    }
     .images-slider img{
         height: 330px;
         width: 100%;

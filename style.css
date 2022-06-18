@@ -520,3 +520,12 @@ transition: all 0.15s ease;
     margin: 20px auto 0;
     border-radius: 30px ;
 }
+.privacy-policy-headings{
+    margin-left: 30px;
+    text-align: center right;
+    justify-content: right;
+}
+.body-pry{
+    margin: 20px;
+    background-color: rgb(240, 240, 240);
+}

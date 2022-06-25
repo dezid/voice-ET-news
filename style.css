@@ -105,7 +105,9 @@ a{
     height: 1.5px;
 }
 @media (max-width: 800px) { 
-   
+   .brand-title{
+margin-right: auto;
+   }
     
     .toggle-button {
         display: flex;
@@ -115,7 +117,7 @@ a{
     }
     .navbar, .navbar-climate {
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
     }
    .navbar-links ul {
        width: 100%;
@@ -484,6 +486,11 @@ transition: all 0.15s ease;
     .contact-form{
         width: 100%;
     }
+    .home-1{
+        margin-left: 0;
+    }
+    .home-1{
+        margin-right: 10px;}
 }
 .contact-form{
     background-color: #fff;
@@ -528,4 +535,11 @@ transition: all 0.15s ease;
 .body-pry{
     margin: 20px;
     background-color: rgb(240, 240, 240);
+}
+.home-1{
+    margin-left: 10px;
+   text-align: justify;
+}
+.home{
+    text-align: justify;
 }

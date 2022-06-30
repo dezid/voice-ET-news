@@ -408,17 +408,11 @@ text-align: center;
   .image-enat-maeiad{
     width: 100%;
   }
-  .news-h2,.news-h1{
+  h1,.news-h2,.news-h1{
     font-weight: bold;
     font-size: 20px;
-    
-    
    }
-
-
 }
-
-
 .class-body{
     height: 80vh;
     display: flex;

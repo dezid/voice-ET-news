@@ -436,9 +436,6 @@ text-align: center;
     width: 140%;
   }
 }
-@media (max-width:800px){
-
-}
 .images-slider{
     display: flex;
     width: 100%;
@@ -638,9 +635,13 @@ transition: all 0.15s ease;
       height: 0%;
     }
   }
+  .text-mob-body{
+    display: none;
+  }
   .text-mob{
 background-color: rgb(0, 0, 0);
 border-radius: 20px;
+
   }
   .text-mob a:hover{
     color: rgb(255, 255, 255);
@@ -656,3 +657,8 @@ border-radius: 20px;
     text-align: center;
     color: #ffffff;
   }
+  @media (max-width:800px){
+    .text-mob-body{
+        display:flex
+     }
+}

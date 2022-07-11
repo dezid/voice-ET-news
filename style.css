@@ -638,3 +638,21 @@ transition: all 0.15s ease;
       height: 0%;
     }
   }
+  .text-mob{
+background-color: rgb(0, 0, 0);
+border-radius: 20px;
+  }
+  .text-mob a:hover{
+    color: rgb(255, 255, 255);
+  }
+  .text-mob a{
+    color: rgb(140, 172, 66);
+  }
+  .mob-1{
+    margin-left: 10px;
+  }
+  .breaking-stories{
+    background-color: rgb(40, 35, 94);
+    text-align: center;
+    color: #ffffff;
+  }

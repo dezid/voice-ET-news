@@ -639,7 +639,7 @@ transition: all 0.15s ease;
     display: none;
   }
   .text-mob{
-background-color: rgb(122, 72, 72);
+background-color: rgb(152, 152, 152);
 border-radius: 20px;
 
   }
@@ -648,6 +648,7 @@ border-radius: 20px;
   }
   .text-mob a{
     color: rgb(0, 0, 0);
+    text-align: left;
   }
   .mob-1{
     margin-left: 10px;

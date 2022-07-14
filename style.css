@@ -639,12 +639,12 @@ transition: all 0.15s ease;
     display: none;
   }
   .text-mob{
-background-color: rgb(152, 152, 152);
+background-color: rgb(218, 218, 218);
 border-radius: 20px;
 
   }
   .text-mob a:hover{
-    color: rgb(255, 255, 255);
+    color: rgb(255, 0, 0);
   }
   .text-mob a{
     color: rgb(0, 0, 0);
@@ -654,7 +654,7 @@ border-radius: 20px;
     margin-left: 10px;
   }
   .breaking-stories{
-    background-color: rgb(23, 17, 95);
+    background-color: rgb(95, 19, 0);
     text-align: center;
     color: #ffffff;
   }
@@ -662,4 +662,10 @@ border-radius: 20px;
     .text-mob-body{
         display:flex
      }
+}
+.alazar-human-right a {
+    color: rgb(147, 0, 0);
+}
+.alazar-human-right a:hover{
+   color: rgb(0, 0, 0);
 }

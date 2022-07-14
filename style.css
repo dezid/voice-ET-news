@@ -674,6 +674,10 @@ border-radius: 20px;
 }
 .div-ad-img{
     text-align: center;
+    border: 1px solid gray;
+}
+.mobile-ad-size{
+    border-radius: 10px;
 }
 .div-ad-img a{
     color:black ;

@@ -662,10 +662,22 @@ border-radius: 20px;
     .text-mob-body{
         display:flex
      }
+     .mobile-ad-size{
+        width: 50%;
+     }
 }
 .alazar-human-right a {
     color: rgb(147, 0, 0);
 }
 .alazar-human-right a:hover{
    color: rgb(0, 0, 0);
+}
+.div-ad-img{
+    text-align: center;
+}
+.div-ad-img a{
+    color:black ;
+}
+.div-ad-img a:hover{
+    color: #070642;
 }

@@ -660,7 +660,9 @@ border-radius: 20px;
   }
   @media (max-width:800px){
     .text-mob-body{
-        display:flex
+        display:flex;
+        width: 100%;
+
      }
      .mobile-ad-size{
         width: 50%;

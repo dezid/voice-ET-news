@@ -668,6 +668,10 @@ border-radius: 20px;
         width: 50%;
      }
 }
+
+.alazar-human-right{
+    margin-top: 20px;
+}
 .alazar-human-right a {
     color: rgb(147, 0, 0);
 }

@@ -522,6 +522,8 @@ transition: all 0.15s ease;
     width: 100%;
 }
 }
+
+
 .contact-form{
     background-color: #fff;
     display: flex;
@@ -684,10 +686,10 @@ border-radius: 20px;
     margin-top: 20px;
 }
 .alazar-human-right a {
-    color: rgb(147, 0, 0);
+    color: rgb(10, 9, 9);
 }
 .alazar-human-right a:hover{
-   color: rgb(0, 0, 0);
+   color: rgb(0, 9, 65);
 }
 .div-ad-img{
     text-align: center;
@@ -786,4 +788,37 @@ border-radius: 20px;
        margin-right: 6px;
        
 }
+.table-boxs{
+    width: 100%;
+}
+.mobile-top-imgs{
+    width: 100%;
+    margin: 0%;
+   
+}
+
+.mySlides-top{
+    width: 100%;
+    position: relative;
+}
+}
+
+.div-headline-slide h1{ 
+    font-size: 22px;
+    margin-top: 0;
+    text-align: center;
+    background-color: #5a1e0f;
+color: #ffffff;}
+.mobile-top-imgs{
+    margin-top: 30px;
+}
+.mySlides-top {display:none;}
+
+.img-logo-mobile-top{
+    width:100px;
+    height: 100px;
+    position: relative;
+    bottom:200px;
+    left:65%;
+    opacity: 0.5;
 }

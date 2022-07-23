@@ -801,6 +801,9 @@ border-radius: 20px;
     width: 100%;
     position: relative;
 }
+.body-single{
+    width: 100%;
+}
 }
 
 .div-headline-slide h1{ 
@@ -821,4 +824,8 @@ color: #ffffff;}
     bottom:200px;
     left:65%;
     opacity: 0.5;
+}
+.body-single{
+    width: 90%;
+    margin-left: 5%;
 }

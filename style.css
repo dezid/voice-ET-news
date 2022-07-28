@@ -829,3 +829,38 @@ color: #ffffff;}
     width: 90%;
     margin-left: 5%;
 }
+
+div.scrollmenu {
+    background-color: rgb(19, 19, 19);
+    overflow: auto;
+    white-space: nowrap;
+  }
+  
+  div.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+  
+  div.scrollmenu a:hover {
+    background-color: rgb(49, 49, 49);
+  }
+  .div-top-video{
+width: 100%;
+  }
+  .video-advert-top{
+    width: 800px;
+    margin: 10px;
+  }
+  @media screen and (max-width:800px) {
+    .video-advert-top{
+        width: 100%;
+        margin: 0px;
+    }
+    .div-top-video{
+        width: 100%;
+        margin-bottom: 20px;
+          }
+  }

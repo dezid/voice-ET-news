@@ -15,6 +15,7 @@ body{
     align-items: center;
     justify-content: space-between;
     color: #ffffff;
+    
 }
 .navbar-climate{
         background-color: green;
@@ -863,4 +864,24 @@ width: 100%;
         width: 100%;
         margin-bottom: 20px;
           }
+  }
+  .programs-list{
+    background-color: #5a1e0f;
+    color: #ccc;
+    text-align: center;
+  }
+  .email-bottom{
+    color: white;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 600;
+  }
+  .email-bottom a{
+    color: white;
+  }
+  .email-bottom a:hover{
+    color: #8a8100;
+  }
+  .body-programs-11{
+    margin: 5px;
   }

@@ -27,7 +27,7 @@ body{
 .brand-title{
     font-size: 1.5rem;
     font-style: var(10px);
-    font-weight: solid;
+    font-weight: 600;
     color:whitesmoke;
    margin: .5rem;
    
@@ -63,7 +63,7 @@ background-color: rgb(32, 69, 121);
 }
 .toggle-button{
     position: absolute;
-    top:.75rem;
+    top:.85rem;
     right:1rem;
     display: none;
     flex-direction:column;
@@ -72,7 +72,7 @@ background-color: rgb(32, 69, 121);
     height:21px;
 }
 .toggle-button .bar{
-    height: 3px;
+    height: 2.5px;
     width:100%;
     background-color: white;
     border-radius:10px;
@@ -785,8 +785,8 @@ border-radius: 20px;
     .div-table-news{
         
         display:block;
-       margin-left: 6px;
-       margin-right: 6px;
+       margin-left: 15px;
+       margin-right: 15px;
        
 }
 .table-boxs{
@@ -832,7 +832,7 @@ color: #ffffff;}
 }
 
 div.scrollmenu {
-    background-color: rgb(19, 19, 19);
+    background-color: rgb(30, 70, 78);
     overflow: auto;
     white-space: nowrap;
   }
@@ -846,7 +846,8 @@ div.scrollmenu {
   }
   
   div.scrollmenu a:hover {
-    background-color: rgb(49, 49, 49);
+    background-color: rgb(249, 249, 249);
+    color: black;
   }
   .div-top-video{
 width: 100%;
@@ -860,11 +861,10 @@ width: 100%;
         width: 100%;
         margin: 0px;
     }
-    .div-top-video{
+    }
+    .div-body-videos{
         width: 100%;
-        margin-bottom: 20px;
-          }
-  }
+    }
   .programs-list{
     background-color: #5a1e0f;
     color: #ccc;
